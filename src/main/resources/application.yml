@@ -5,9 +5,9 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://${MYSQL_ADDRESS}/${MYSQL_DATABASE:iread}
-    username: ${MYSQL_USERNAME}
-    password: ${MySQL_PASSWORD}
+    url: jdbc:mysql://10.21.102.116:3306/iread
+    username: root
+    password: Ac2kVVfz
   mvc:
     view:
       suffix: .html
